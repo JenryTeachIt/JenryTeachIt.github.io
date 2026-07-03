@@ -1,0 +1,15 @@
+
+.bodymaterials {
+  background: rgb #502f15;
+}
+
+
+.img-back {
+ width: 1000px;
+ height: auto;
+ display: block;
+}
+
+.img-back:hover {
+  cursor: default;
+}

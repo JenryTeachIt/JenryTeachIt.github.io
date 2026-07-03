@@ -1,0 +1,113 @@
+
+p {
+  font-family: Lato;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.presentation {
+  font-size: 14px;
+  color: rgb(rgb(216, 146, 146), rgb(65, 238, 65), rgb(110, 110, 209))
+}
+
+
+button {
+  background-color: rgba(214, 214, 214, 0.377);
+  border-radius: 30px;  
+  color: rgb(238, 212, 255);
+  padding: 1px;
+  text-align: center;
+  text-decoration: dashed;
+  font-size: large;
+  cursor: pointer;
+  width: 150px;
+  height: 110px;
+  transition: .3s;
+  filter: blur(0.5px) drop-shadow(0px 0px 10px rgb(136, 129, 129));
+  transform: scale(1);
+  transform: rotate(0deg);
+ 
+  
+  }
+
+
+
+
+
+  button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 0%;
+    text-align: center;
+    text-decoration: dashed;
+    font-size: large;
+    cursor: pointer;
+    height: 110px;
+    filter: blur(0);
+    filter: drop-shadow(0px 0px 10px rgb(209, 152, 255));
+    transform: rotate(5deg) scale(1.5) translateY(8px) translateX(-25px);
+      
+  }
+
+
+
+  button.mappe:hover {
+    background-color: rgb(35, 156, 71);
+    color: rgb(255, 255, 255);
+    padding: 0%;
+    text-align: center;
+    text-decoration: dashed;
+    font-size: large;
+    cursor: pointer;
+    height: 110px;
+    filter: blur(0);
+    filter: drop-shadow(0px 0px 10px rgb(2, 155, 40));
+    transform: rotate(-5deg) scale(1.5) translateY(8px) translateX(-25px);
+      
+  }
+
+  button.esercizi:hover {
+    background-color: rgb(41, 26, 179);
+    color: rgb(255, 255, 255);
+    padding: 0%;
+    text-align: center;
+    text-decoration: dashed;
+    font-size: large;
+    cursor: pointer;
+    height: 110px;
+    filter: blur(0);
+    filter: drop-shadow(0px 0px 10px rgb(16, 0, 156));
+    transform: rotate(5deg) scale(1.5) translateY(8px) translateX(-25px);
+      
+  }
+
+
+
+
+  button.trasp  {
+    width: 50px;
+    
+}
+
+
+.container button {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container button:hover {
+ filter:hue-rotate();
+ transform: scale()
+}
+
+
+
+  .img-back:hover {
+    filter: blur(0px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: scale(1.01) rotate(0deg) translateY(0);
+  }

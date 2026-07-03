@@ -1,0 +1,52 @@
+
+
+
+
+
+article > img {
+  animation: fade-in linear;
+  animation-timeline: view (250px);
+}
+
+
+@keyframes fade-in {from {scale: 8 px; opacity: 0px }
+ to { scale: 1; opacity: 1;}
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1220a0;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ce0d67;
+  color: rgb(236, 204, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9900ff;
+  color: white;}
+
+  .dropdown {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  button:focus-within .dropdown {
+    opacity:  1;
+    visibility: visible;
+  }
